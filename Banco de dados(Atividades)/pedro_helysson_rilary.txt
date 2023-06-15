@@ -1,0 +1,7 @@
+#select max(valor_unitario) as maior, min(valor_unitario) as menor from produto;
+#select avg(valor_unitario) as media from produto;
+#select count(*) from pedido where fk_cod_vendedor = 3  
+#select avg(quantidade) as media from itempedido;
+#select valor_unitario * 10 from produto where cod_produto = 1
+#select salario_fixo *1.12 as novosalario from vendedor where cod_vendedor = 1
+select sum(quantidade) from itempedido

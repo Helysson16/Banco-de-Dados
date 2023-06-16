@@ -1,0 +1,6 @@
+#SELECT cidade, COUNT(*) AS total_clientes FROM cliente GROUP BY cidade;
+#select FK_num_pedido, SUM(quantidade) as Total_itens from itempedido group by FK_num_pedido
+#select Fk_cod_vendedor, count(*) as total_vendas from pedido group by FK_cod_vendedor
+#select sum(quantidade) as soma, avg(quantidade) as media from itempedido group by FK_num_pedido
+#select FK_cod_vendedor, max(prazo_entrega), min(prazo_entrega), round(avg(prazo_entrega)) from pedido group by FK_cod_vendedor
+#select FK_cod_produto, sum(quantidade) as qntd from itempedido group by FK_cod_produto order by qntd desc limit 3
